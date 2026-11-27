@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+h1{
+  color:#4078c0;
+  text-align: center;
+}
+
+main {
+  width: 900px;
+  height: 900px;
+  margin: 0 auto;
+  border: 1px solid darkgray;
+  border-radius: 0.5rem;
+  background-color: #F2DABF;
+}
+
+.articles {
+  width: 100%;
+  padding: 1rem;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+}
+article{
+  width: 260px;
+  height: 90px;
+  border: 1px solid lightgray;
+  background-color: white;
+
+  border-radius: 0.5rem;
+  position: relative;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+img{
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+.pokenumber{
+  position: absolute;
+  top: 0.25rem;
+  right: 0.25rem;
+}
+h2{
+  color: #4078c0;
+}
+.typeoverview{
+  position: absolute;
+  left: 0.25rem;
+  bottom: 0.25rem;
+  color: white;
+
+  display: flex;
+  gap: 4px;
+  margin-top: 4px;
+}
+.type {
+  display: inline-block;
+  padding: 2px 8px;    /* room around the text */
+  border-radius: 8px;  /* rounded corners */
+  font-size: 12px;
+  color: white;
+}
+
+.pokenumber {
+  color: #d1d5db
+}
+.grass{
+  background-color:#78c850
+}
+.fire{
+  background-color:#f08030
+}
+.flying{
+  background-color:#a890f0
+}
+.poison{
+  background-color:#a040a0
+}
+.water{
+  background-color:#6890f0
+}
+
+
+
